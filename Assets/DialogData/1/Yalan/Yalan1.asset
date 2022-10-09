@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: Yalan1
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 11400000, guid: 3fc2ba442b18e614b87adcff69ca8d62, type: 2}
+  RightSpeaker: {fileID: 11400000, guid: e84d4f4e09e119b4f837a1e5f87db5c9, type: 2}
+  dialog:
+  - speaker: 1
+    text: "Abicim ger\xE7ekten de\u011Filim ya! Ne h\u0131rs\u0131zl\u0131\u011F\u0131
+      Allah a\u015Fk\u0131na. Birden seni g\xF6r\xFCnce korkup saklanmak istedim."
+  - speaker: 1
+    text: "Beni g\xF6rmeyince ben de \xE7\u0131k\u0131p gidecektim hemen. Yanl\u0131\u015Fl\u0131kla
+      girdim ben eve. Ba\u015Fka ev sand\u0131m. Arka kap\u0131 da a\xE7\u0131k olunca
+      fark etmedim yanl\u0131\u015F oldu\u011Funu."
+  - speaker: 0
+    text: "Ben de bunu yedim ha! Yanl\u0131\u015Fl\u0131klaym\u0131\u015F. Ad\u0131mlar\u0131n\u0131
+      da m\u0131 yanl\u0131\u015Fl\u0131kla att\u0131n ulan! "
+  responses:
+  - responseText: Kuzen
+    dialogObject: {fileID: 11400000, guid: ab5b68069ed7c2047a1d9d73f68e2272, type: 2}
+  - responseText: Teyze
+    dialogObject: {fileID: 11400000, guid: f7121b4d8fc0feb4980f1115a2bce56c, type: 2}

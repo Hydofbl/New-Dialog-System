@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: Restoran
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 0}
+  RightSpeaker: {fileID: 0}
+  dialog:
+  - speaker: 0
+    text: a
+  - speaker: 1
+    text: g
+  - speaker: 1
+    text: a
+  - speaker: 0
+    text: b
+  - speaker: 1
+    text: e
+  - speaker: 0
+    text: as
+  responses:
+  - responseText: "Berlin de\u011Fil Salzburg"
+    dialogObject: {fileID: 11400000, guid: e0f5ad972674f5349a50881fc3c4c20f, type: 2}
+  - responseText: "Berlin de\u011Fil M\xFCnih"
+    dialogObject: {fileID: 11400000, guid: cdd606bd47406cf49a22c9fc814bc3bc, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 11400000, guid: 3fc2ba442b18e614b87adcff69ca8d62, type: 2}
+  RightSpeaker: {fileID: 11400000, guid: e84d4f4e09e119b4f837a1e5f87db5c9, type: 2}
+  dialog:
+  - speaker: 0
+    text: 'Lan? Sen kimsin lan? '
+  - speaker: 1
+    text: "B-ben Mert. Siz yanl\u0131\u015F anlad\u0131n\u0131z h\u0131rs\u0131z
+      falan de\u011Filim ben. Yakam\u0131 b\u0131rak\u0131rsan\u0131z anlatay\u0131m."
+  - speaker: 0
+    text: "G\xFCnd\xFCz g\xF6z\xFCyle evime girip saklan\u0131yorsun sonra bir de
+      h\u0131rs\u0131z de\u011Filim ben diyorsun. Hadi lan oradan! "
+  responses:
+  - responseText: Yalan
+    dialogObject: {fileID: 11400000, guid: 8ab590ae8e63c024495885a781978fe5, type: 2}
+  - responseText: "Do\u011Fru"
+    dialogObject: {fileID: 11400000, guid: b95573dd24cf5cf43ac29dc966ccc951, type: 2}
+  - responseText: "Do\u011Fru"
+    dialogObject: {fileID: 11400000, guid: b95573dd24cf5cf43ac29dc966ccc951, type: 2}
+  - responseText: "Do\u011FruDe\u011Fil"
+    dialogObject: {fileID: 11400000, guid: b95573dd24cf5cf43ac29dc966ccc951, type: 2}

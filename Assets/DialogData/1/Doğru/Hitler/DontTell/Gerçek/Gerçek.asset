@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: "Ger\xE7ek"
+  m_EditorClassIdentifier: 
+  dialog:
+  - "Senin \xE7ocuklar\u0131ndan biri ileride \xE7ok b\xFCy\xFCk yerlere gelecek
+    ama bu hi\xE7 iyi bir \u015Fey de\u011Fil \xE7\xFCnk\xFC sonra hep k\xF6t\xFC
+    k\xF6t\xFC \u015Feyler oluyor. "
+  - "Sava\u015Flar falan \xE7\u0131k\u0131yor. \xC7ok insan \xF6lecek "
+  responses: []

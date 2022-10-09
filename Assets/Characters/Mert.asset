@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a28d15c871fa5e45a94148582c6d696, type: 3}
+  m_Name: Mert
+  m_EditorClassIdentifier: 
+  character:
+    name: Mert
+    unit: 0
+  portrait: {fileID: 21300000, guid: dde15f93d24eebb47bd251ef54944d2a, type: 3}

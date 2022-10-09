@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: Hitler
+  m_EditorClassIdentifier: 
+  dialog:
+  - "Abicim bak senin soyad\u0131n Hitler de\u011Fil mi? Daha \xF6nce iki kere evlendin.
+    \u015Eimdi de 3. E\u015Finle evlisin. "
+  - "\xC7ocuklar\u0131n \u015Fu anki e\u015Finden de\u011Fil. G\xFCmr\xFCk memurusun,
+    de\u011Fil mi? De\u011Fil mi abicim?"
+  - "Sen bunlar\u0131\u2026 Ulan sen bunlar\u0131 nereden biliyorsun? Bizi mi takip
+    ediyorsun lan sen? Kar\u0131mdan, \xE7ocuklar\u0131mdan sana ne be adam! "
+  - "H\u0131rs\u0131z\u0131m deseydin daha az sinirlenirdim. Zaman yolcusuyum diyen
+    aile sap\u0131\u011F\u0131 \xE7\u0131kt\u0131n. Bana bak! Sen bunlar\u0131 nereden
+    biliyorsun? "
+  - "Yoksa sen kar\u0131ma m\u0131 yakla\u015Fmaya \xE7al\u0131\u015F\u0131yorsun?
+    Eve gizli girmeler falan. S\u0131\xE7t\u0131m o\u011Flum senin senin a\u011Fz\u0131na."
+  - "Yok daha neler. Abicim neler diyorsun sen? Ne sap\u0131\u011F\u0131 ne kar\u0131s\u0131
+    rica ediyorum. Bak sen iyice yanl\u0131\u015F anlad\u0131n ben tan\u0131mam kar\u0131n\u0131
+    falan."
+  - "Gelecekte \xE7ok k\xF6t\xFC \u015Feyler oluyor onu durdurmaya \xE7al\u0131\u015F\u0131yorum
+    ben. \u015Eimdi her \u015Feyi s\xF6yleyemem ama o k\xF6t\xFC \u015Feyleri engellemem
+    laz\u0131m."
+  - "Zaman makinemle geldim buraya sonra engellemem gereken \u015Feyin burada oldu\u011Funu
+    \xF6\u011Frendim. O y\xFCzden geldim evinize. "
+  - "Biliyorum b\xF6yle girmek hi\xE7 ho\u015F olmad\u0131 ama evde kimse yok sand\u0131m.
+    Senin evde oldu\u011Funu bilsem girer miydim hi\xE7 b\xF6yle?"
+  - "Neymi\u015F senin bu engellemen gereken \u015Fey?"
+  responses:
+  - responseText: "S\xF6yleyemem"
+    dialogObject: {fileID: 11400000, guid: 9147bdf0276cf054891cf0e557f9bc19, type: 2}
+  - responseText: "\xC7ocuklar\u0131ndan biri \u2026"
+    dialogObject: {fileID: 11400000, guid: 6421b7b078188504a8162d7b4dc21266, type: 2}

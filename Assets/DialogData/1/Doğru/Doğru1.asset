@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: "Do\u011Fru1"
+  m_EditorClassIdentifier: 
+  dialog:
+  - "Bak\u0131n ben zaman yolcusuyum. Baz\u0131 \u015Feyleri d\xFCzeltmem gerek. "
+  - "O y\xFCzden geldim buraya. \u015Eimdi size her \u015Feyi anlatamam ama durum
+    ciddi ger\xE7ekten. "
+  - "Ulan sen benimle dalga m\u0131 ge\xE7iyorsun?"
+  - "Hay\u0131r can\u0131m neden dalga ge\xE7eyim? \u0130ster inan ister inanma ama
+    benim baz\u0131 \u015Feyleri de\u011Fi\u015Ftirmem gerek. "
+  - "Hem zaman yolcusu oldu\u011Fumu da ispatlayabilirim. "
+  - "Birader bak benimle dalga ge\xE7me zaten sinirliyim elimde kal\u0131rs\u0131n.
+    Kafan m\u0131 iyi senin ne zaman\u0131 ne yolcusu?"
+  responses:
+  - responseText: "Osmanl\u0131"
+    dialogObject: {fileID: 11400000, guid: 773658fc8e1ee9a47a80e5c7a89a5a1d, type: 2}
+  - responseText: Hitler
+    dialogObject: {fileID: 11400000, guid: 016a65b60aef09941ae8a25037ba22ce, type: 2}
+  - responseText: Ferndinand
+    dialogObject: {fileID: 11400000, guid: 229fa19cf88a9c747ab57086d6fb9b02, type: 2}

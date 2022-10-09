@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: "S\xF6yleme"
+  m_EditorClassIdentifier: 
+  dialog:
+  - "\u0130\u015Fte onu s\xF6yleyemem. Ama beni b\u0131rakmazsan \xE7ok fazla insan
+    \xF6lecek. \xD6yle 3-5 ki\u015Fi de de\u011Fil; milyonlarca insan \xF6l\xFCyor
+    abicim."
+  - "Benim bunu engellemem laz\u0131m. Evinden de senden de hi\xE7bir \u015Fey istemiyorum
+    zaten. B\u0131rak beni gideyim yoluma. Bir daha da g\xF6rmezsin beni."
+  - "Bana bak son kez soruyorum. Kar\u0131mla bir alakan m\u0131 var senin?"
+  - "Abicim ben diyorum sen ne diyorsun. Hala kar\u0131m diyorsun. Benim ne i\u015Fim
+    olur senin kar\u0131nla? Tan\u0131mam etmem. Hadi sal beni de yoluma gideyim. "
+  - "Ne alakas\u0131 varm\u0131\u015F benim evimle o kadar insan\u0131n \xF6lmesinin?"
+  responses:
+  - responseText: Yalan
+    dialogObject: {fileID: 11400000, guid: df835e84292c8644b9531c2df35cfb60, type: 2}
+  - responseText: "Ger\xE7ek"
+    dialogObject: {fileID: 11400000, guid: 6fcc5b3dfb252ca488ba3d4c88aab689, type: 2}
