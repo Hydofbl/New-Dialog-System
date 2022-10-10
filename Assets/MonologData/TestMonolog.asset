@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbff11ea8f2b19b4e888ba92a2f9c786, type: 3}
+  m_Name: TestMonolog
+  m_EditorClassIdentifier: 
+  leftSpeaker: {fileID: 11400000, guid: 3fc2ba442b18e614b87adcff69ca8d62, type: 2}
+  RightSpeaker: {fileID: 0}
+  dialog:
+  - speaker: 0
+    text: a
+  - speaker: 0
+    text: b
+  - speaker: 0
+    text: c
+  - speaker: 0
+    text: d
+  - speaker: 0
+    text: e
+  responses: []

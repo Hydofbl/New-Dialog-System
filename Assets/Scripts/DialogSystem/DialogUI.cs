@@ -14,6 +14,8 @@ public struct SpeakerComps
 
 public class DialogUI : MonoBehaviour
 {
+    public bool isMonolog = false;
+
     [SerializeField] private GameObject dialogBox;
     [SerializeField] private SpeakerComps leftSpeaker;
     [SerializeField] private SpeakerComps rightSpeaker;
@@ -28,10 +30,6 @@ public class DialogUI : MonoBehaviour
     {
         typeWriterEffect = GetComponent<TypeWriterEffect>();
         responseHandler = GetComponent<ResponseHandler>();
-
-        CloseSpeaker(leftSpeaker.GO);
-        CloseSpeaker(rightSpeaker.GO);
-        CloseDialogBox();
     }
     
     public void ShowDialog(DialogObject dialogObject)
@@ -51,19 +49,14 @@ public class DialogUI : MonoBehaviour
     {
         for (int i = 0; i < dialogObject.Dialog.Length; i++)
         {
-            if (dialogObject.Dialog[i].speaker == Speaker.Left)
+            if (!isMonolog)
             {
-                leftSpeaker.GO.SetActive(true);
-                
-                if(rightSpeaker.GO.activeSelf)
-                    rightSpeaker.GO.SetActive(false);
+                ChangeSpeaker(dialogObject.Dialog[i]);
             }
             else
             {
-                rightSpeaker.GO.SetActive(true);
-                
-                if(leftSpeaker.GO.activeSelf)
-                    leftSpeaker.GO.SetActive(false);
+                if(!leftSpeaker.GO.activeSelf)
+                    leftSpeaker.GO.SetActive(true);
             }
             
             string dialog = dialogObject.Dialog[i].text;
@@ -88,8 +81,27 @@ public class DialogUI : MonoBehaviour
         else
         {
             CloseSpeaker(leftSpeaker.GO);
-            CloseSpeaker(rightSpeaker.GO);
+            if (!isMonolog)
+                CloseSpeaker(rightSpeaker.GO);
             CloseDialogBox();
+        }
+    }
+
+    private void ChangeSpeaker(Line line)
+    {
+        if (line.speaker == Speaker.Left)
+        {
+            leftSpeaker.GO.SetActive(true);
+
+            if (rightSpeaker.GO.activeSelf)
+                rightSpeaker.GO.SetActive(false);
+        }
+        else
+        {
+            rightSpeaker.GO.SetActive(true);
+
+            if (leftSpeaker.GO.activeSelf)
+                leftSpeaker.GO.SetActive(false);
         }
     }
 
@@ -125,8 +137,11 @@ public class DialogUI : MonoBehaviour
     {
         leftSpeaker.image.overrideSprite = dialogObject.leftSpeaker.portrait;
         leftSpeaker.name.text = dialogObject.leftSpeaker.name;
-        
-        rightSpeaker.image.overrideSprite = dialogObject.RightSpeaker.portrait;
-        rightSpeaker.name.text = dialogObject.RightSpeaker.name;
+
+        if (!isMonolog)
+        {
+            rightSpeaker.image.overrideSprite = dialogObject.RightSpeaker.portrait;
+            rightSpeaker.name.text = dialogObject.RightSpeaker.name;
+        }
     }
 }
