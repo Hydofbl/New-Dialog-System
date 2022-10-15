@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character:
     name: 0
-  portrait: {fileID: 21300000, guid: 2fbf1d97890c96947a5972949ae81e07, type: 3}
+  portrait: {fileID: 21300000, guid: 81a14810fd767694688012503ab46317, type: 3}
